@@ -279,13 +279,11 @@ ul {
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
     background: var(--primery-bgc);
-  }
-
-    .close-icon {
-    width: 11px;
-    height: 11px;
-    fill: #000000;
-     
+    
+    background-image: url(../icons/icon-close.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    
   }
 
   /* Преимущества */
