@@ -240,6 +240,9 @@ ul {
     height: 100%;
 
     background: rgba(0, 0, 0,0.2);
+
+    opacity: 1;
+    transition: opacity 250ms var(--time-distribution-function);
   }
 
   .backdrop.is-hidden{
@@ -249,7 +252,6 @@ ul {
 
   .backdrop.is-hidden .modal{
     transform: translate(-50%,-50%) scale(1.3);
-    opacity: 0;
   }
 
   .modal {
@@ -263,9 +265,7 @@ ul {
     background-color: var(--primery-bgc);
 
     transform: translate(-50%,-50%) scale(1);
-    opacity: 1;
-    transition: transform 250ms var(--time-distribution-function),opacity 250ms var(--time-distribution-function);
-
+    transition: transform 250ms var(--time-distribution-function);
   }
 
     .close {
